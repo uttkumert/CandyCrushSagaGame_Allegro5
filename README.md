@@ -1,9 +1,10 @@
 # CandyCrushSagaGame_Allegro5
-#OVERVIEW
+
+# OVERVIEW
 
 The game is mostly based on the Candy Crush Saga Mobile.Candies show up in different colors and shapes.The basic logic of gameplay is in the form of drag and leave.The score is incremented after every move by 2 to the power of  the number of candies that exploded that turn.
 
-#WHY DID WE USE ?
+# WHY DID WE USE ?
 stdio.h: To use basic structures.
 stdlib.h: To use arrays.
 time.h: To give random candies.
@@ -13,13 +14,13 @@ font.h: To create text lines on screen.
 ttf.h: To use the text type that we want.
 math.h: To calculate points.
 
-#ADDONS
+# ADDONS
 
 Primitives Addon: It used for ball and hoop drawing. 
 Font and TTF Addons: It used to incorporate the Arial Font Type into our project.
 Color Addon: It used for coloring candies, background, fonts and etc.
 
-#FUNCTIONS
+# FUNCTIONS
 
 main: it contains the starting routines that are responsible for initiating necessary allegro functions which are essential for the formation of the program. Additionally the call of the functions that are responsible for making the program work without errors until the maximum movement count is also present at the main.
 
